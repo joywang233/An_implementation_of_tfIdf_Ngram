@@ -6,7 +6,17 @@ A million news headlines and its published date are provided in this dataset fro
 
 ### Language and packages 
 This project is implemented in Python on jupyter notebook.
-The packages used here includes numpy,re, nltk, sklearn
+The packages used here:
+
+
+```
+import numpy as np
+import re #for tokenization
+import nltk #nlp library for stop-words
+import string #for punctuation (in case there's any)
+from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
+```
+
 
 ### Purpose
 The purpose of this project is to understand the top national news in Australia for the past 10 years. 
@@ -18,12 +28,18 @@ To understand the top national topics, we would like to know which news are most
 
 Firstly, let's take a look at the dataset.
 
+### Findings
 
-```
-#read the csv file
-My_news_tilte = pd.read_csv('abcnews-date-text.csv', sep = ',', parse_dates=[0], infer_datetime_format=True)
-print(My_news_tilte.head())
-My_news_tilte.info()
+-'Same sex marriage' is a high ranked topic. This is because Australia legalised same-sex marriage in December 2017, which has caused a heated discussion among the nation.
 
-```
+-'Social news' is also a widely discussed topic, this can be seen from the high ranked terms such as 'not guilty to','man killed in','being hit by','police','ctash','murder' etc.
 
+-'Business news' is another hot topic within past decade, indicated by high ranked term 'the consumer quarter', 'market analysis', 'finance with alan' etc.
+
+However, high ranked tri-gram such as 'one plus one', 'the drum ', 'Tas country hour', 'National press club ' are the names of TV/broadcast programmes owned by ABC News. These grams are actually not adding much value to the reader's insight. To get rid of these less useful terms, a customized stop words list can be added at pre-processing stage later.
+
+###Future work
+
+-Though tri-gram works well on our sample dataset, it has greatly increased the dimension compare with single terms. For 67571 news_titles, the dimension of tri-gram went from 24k to 273k. It is unrealistic to apply tri-gram on the whole dataset.
+
+-To further reduce the dimension and make the topics clear, a topic model would be a better option, here LDA (Latent Dirichlet allocation) will be choose as our future approach.
