@@ -36,12 +36,14 @@ Firstly, let's take a look at the dataset.
      style="float: left; margin-right: 10px;" />
 
 2. An output of top 100 Tri grams ranking with tf
-<img src="output_img/top 100 trigrams tf.png"
+
+<img src="output_img/top100trigramstf.png"
      alt="top 100 Tri-gram tf"
      style="float: left; margin-right: 10px;" />
 
 3. An output of top 100 terms ranking with tfidf
-<img src="output_img/top 100 trigram tfidf.png"
+
+<img src="output_img/top100trigramtfidf.png"
      alt="top 100 Tri-grams tfidf"
      style="float: left; margin-right: 10px;" />
      
