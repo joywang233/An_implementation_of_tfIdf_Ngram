@@ -28,6 +28,9 @@ To understand the top national topics, we would like to know which news are most
 
 Firstly, let's take a look at the dataset.
 
+### Output graphs
+
+
 ### Findings
 
 -'Same sex marriage' is a high ranked topic. This is because Australia legalised same-sex marriage in December 2017, which has caused a heated discussion among the nation.
