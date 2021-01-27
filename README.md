@@ -29,8 +29,10 @@ To understand the top national topics, we would like to know which news are most
 Firstly, let's take a look at the dataset.
 
 ### Output graphs
-1. A summary of 10 years newstitles data 
-![alt text](https://github.com/joywang233/An_implementation_of_tfIdf_Ngram/blob/main/output_img/summary_data.png "summary_data")
+1. A summary of counts of newstitles of past 10 years
+![alt text][graph1]
+[graph1]: https://https://github.com/joywang233/An_implementation_of_tfIdf_Ngram/blob/main/output_img/summary_data.png  "summary of newstitile counts"
+
 
 
 
