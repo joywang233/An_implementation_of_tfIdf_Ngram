@@ -35,14 +35,14 @@ Firstly, let's take a look at the dataset.
      alt="summary of newstitile counts"
      style="float: left; margin-right: 10px;" />
 
-2. An output of top 100 terms ranking with tf
-<img src="output_img/top100_terms.png"
-     alt="top100 terms tf"
+2. An output of top 100 Tri grams ranking with tf
+<img src="top 100 trigrams tf.png"
+     alt="top 100 Tri-gram tf"
      style="float: left; margin-right: 10px;" />
 
 3. An output of top 100 terms ranking with tfidf
-<img src="output_img/top100_termstfidf.png"
-     alt="top100 terms tfidf"
+<img src="top 100 trigram tfidf.png"
+     alt="top 100 Tri-grams tfidf"
      style="float: left; margin-right: 10px;" />
      
      
