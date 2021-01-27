@@ -35,8 +35,19 @@ Firstly, let's take a look at the dataset.
      alt="summary of newstitile counts"
      style="float: left; margin-right: 10px;" />
 
+2. An output of top 100 terms ranking with tf
+<img src="output_img/top100_terms.png"
+     alt="top100 terms tf"
+     style="float: left; margin-right: 10px;" />
 
-
+3. An output of top 100 terms ranking with tfidf
+<img src="output_img/top100_termstfidf.png"
+     alt="top100 terms tfidf"
+     style="float: left; margin-right: 10px;" />
+     
+     
+     
+     
 ### Findings
 
 -'Same sex marriage' is a high ranked topic. This is because Australia legalised same-sex marriage in December 2017, which has caused a heated discussion among the nation.
