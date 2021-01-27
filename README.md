@@ -20,7 +20,10 @@ Firstly, let's take a look at the dataset.
 
 ###
 `#read the csv file
+
 My_news_tilte = pd.read_csv('abcnews-date-text.csv', sep = ',', parse_dates=[0], infer_datetime_format=True)
 print(My_news_tilte.head())
+
 My_news_tilte.info()
+
 #[1186018 rows x 2 columns]`
