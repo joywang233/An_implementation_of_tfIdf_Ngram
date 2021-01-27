@@ -30,9 +30,10 @@ Firstly, let's take a look at the dataset.
 
 ### Output graphs
 1. A summary of counts of newstitles of past 10 years
-![alt text][graph1]
-[graph1]: https://github.com/joywang233/An_implementation_of_tfIdf_Ngram/blob/main/output_img/summary_data.png  "summary of newstitile counts"
 
+<img src="https://github.com/joywang233/An_implementation_of_tfIdf_Ngram/blob/main/output_img/summary_data.png"
+     alt="summary of newstitile counts"
+     style="float: left; margin-right: 10px;" />
 
 
 
