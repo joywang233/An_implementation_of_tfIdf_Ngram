@@ -38,7 +38,7 @@ Firstly, let's take a look at the dataset.
 
 However, high ranked tri-gram such as 'one plus one', 'the drum ', 'Tas country hour', 'National press club ' are the names of TV/broadcast programmes owned by ABC News. These grams are actually not adding much value to the reader's insight. To get rid of these less useful terms, a customized stop words list can be added at pre-processing stage later.
 
-###Future work
+### Future work
 
 -Though tri-gram works well on our sample dataset, it has greatly increased the dimension compare with single terms. For 67571 news_titles, the dimension of tri-gram went from 24k to 273k. It is unrealistic to apply tri-gram on the whole dataset.
 
